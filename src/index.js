@@ -52,7 +52,7 @@ console.log(map);
 
 // routes
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('INGRESE LA CUIDDAD CON "/" AL INICIO ')
 });
 
 app.get('/:municipio', (req, res) => {
